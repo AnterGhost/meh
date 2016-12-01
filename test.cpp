@@ -24,7 +24,7 @@ GLvoid init() {
     contextCreated = true;
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(10, 10, 10, 10, 1.0, -1.0);
+    glOrtho(0, 640, 480, 0, 1.0, -1.0);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
     glClearColor(0, 0, 0, 1.0);
